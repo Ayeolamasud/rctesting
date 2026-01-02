@@ -1,0 +1,3 @@
+src/components/admin/OrderDetailModal.tsx(59,105): error TS7053: Element implicitly has an 'any' type because expression of type 'OrderStatus' can't be used to index type '{ pending: string; preparing: string; ready: string; completed: string; cancelled: string; }'.
+  Property 'awaiting_payment' does not exist on type '{ pending: string; preparing: string; ready: string; completed: string; cancelled: string; }'.
+src/components/track/OrderStatusBadge.tsx(4,9): error TS2741: Property 'awaiting_payment' is missing in type '{ pending: string; preparing: string; ready: string; completed: string; cancelled: string; }' but required in type 'Record<OrderStatus, string>'.
